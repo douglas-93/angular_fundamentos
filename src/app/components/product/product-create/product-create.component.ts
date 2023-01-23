@@ -11,8 +11,8 @@ import {ProductModel} from "../product.model";
 export class ProductCreateComponent {
 
   product: ProductModel = {
-    name: 'Produto de teste',
-    price: 125.98
+    name: '',
+    price: 0
   }
 
   constructor(private service: ProductService,
